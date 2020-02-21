@@ -307,10 +307,10 @@ body {
     height:5px;
 }
 ::-webkit-scrollbar-track {
-    background: #fff; 
+    background: rgb(0, 125, 132); 
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(0, 125, 132);
+    background: #fff;
 }
 ::-webkit-scrollbar-thumb:hover {
     background:rgba(0, 164, 173,0.8);
