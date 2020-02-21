@@ -1,7 +1,7 @@
 const particlesJSON = {
   "particles": {
     "number": {
-      "value": 58,
+      "value": 30,
         "density": {
         "enable": true,
           "value_area": 800
@@ -77,7 +77,7 @@ const particlesJSON = {
       },
       "onclick": {
         "enable": true,
-          "mode": "push"
+          "mode": "grab"
       },
       "resize": true
     },
