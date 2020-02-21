@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JVJplus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">works</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Jay Prakash</h1>
+        <h2>Android / Web Developer / Human</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://www.facebook.com/JVJplus" target="_blank"  class="social"><i class="fab fa-facebook"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://wa.me/919835582472?text=Hi Jay!!" target="_blank" class="social"><i class="fab fa-whatsapp"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://www.instagram.com/JVJplus" target="_blank"class="social"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://jvjplus.github.io/resume/" target="_blank" class="social"><i class="fab fa-dribbble"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>Works</h1>
+        <section>
+            <p>
+                Had completed many project on web and android technologies.
+                <br>
+                Project can be found on my github profile.
+                <br>
+
+                <br>
+                Had also worked on graphics designing.
+                <br>
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Android Studio</div>
+                <br>
+                <br>
+                <div><i class="fas fa-circle"></i>&nbsp;Photoshop</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Illustrator</div>
+                <div><i class="fas fa-circle"></i>&nbsp;After Effects</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Premiere</div>
+            </div>
+            <button onclick="window.location.href = 'https://github.com/JVJplus/Android-Projects'" class="btn_two">Android Projects</button>
+            <button onclick="window.location.href = 'https://github.com/JVJplus?tab=repositories'" class="btn_two">Web Projects</button>
+            <button onclick="window.location.href = 'https://desi-codes.blogspot.com/'" class="btn_two">Blog</button>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>About</h1>
+            <section id="about_section">
+                <p>
+                    <span> Hi, </span> I am 19 years amateur, Living in Jamshedpur.
+                </p>
+                
+                <p>
+                    Since Childhood I am an <span>Computer Enthusiast</span>, Die-Heart <span>Programmer</span> And <span>Graphics
+                        Designer</span>. Also have immense Interest in Learning New Upcoming Technologies.
+                </p>
+                
+                <p>
+                    Now totally obsessed with <span>Android & Guitar</span>.
+                </p>
+                
+                <p>
+                    As a side work, had tried hands on Guitar, Competitive Programming, Dance(will).
+                </p>
+                
+                <p>
+                    Currently looking for projects and internship based on <span>Android & Web Development</span> to test my knowledge
+                    and boost experience.
+                </p>
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>Contact</h1>
+            <section>
+                <a href="https://goo.gl/maps/eSfpCDVmc972PaBr8" target="_blank" style="text-decoration:none;">
+                    <i style="color: white;" class="fas fa-map-marker-alt"></i>
+                    <p style="display: inline-block; color:white">&nbsp;Telco, Jamshedpur, Jharkhand</p>
+                </a><br>
+                
+                <a href="https://wa.me/919835582472?text=Hi Jay!!" target="_blank"style="text-decoration:none;">
+                    <i style="color: white;" class="fas fa-mobile-alt"></i>
+                    <p style="display: inline-block; color:white">&nbsp;9835582472</p>
+                </a><br>
+                    
+                <a href="mailto:jvjplus@gmail.com?Subject=Hello" target="_top"style="text-decoration:none;">
+                    <i style="color: white;" class="far fa-envelope"></i>
+                    <p style="display: inline-block; color:white">&nbsp;jvjplus@gmail.com</p>
+                </a><br>
+  
+
+                <a href="https://www.facebook.com/JVJplus" target="_top"style="text-decoration:none;">
+                    <i style="color: white;" class="fab fa-facebook"></i>
+                    <p style="display: inline-block; color:white">&nbsp;Facebook</p>
+                </a><br>
+
+            </section>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
