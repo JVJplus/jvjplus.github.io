@@ -209,7 +209,8 @@ body {
     text-decoration:underline;
 }
 .container p {
-    font-size:21px;
+    font-size:16px;
+    margin:4% 0;
 }
 .btn_one {
     font-size:18px;
