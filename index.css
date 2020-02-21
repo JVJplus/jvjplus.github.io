@@ -210,7 +210,7 @@ body {
 }
 .container p {
     font-size:16px;
-    margin:4% 0;
+    /* margin:4% 0; */
 }
 .btn_one {
     font-size:18px;
