@@ -195,7 +195,7 @@ body {
     display:inline-block;
     padding:8px 10px;
     border:2px solid #fff;
-    margin:0px 10px;
+    margin:3px 10px;
     border-radius:50px;
 }
 #used:hover {
@@ -310,7 +310,7 @@ body {
     background: #fff; 
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(0, 164, 173);
+    background: rgb(0, 125, 132);
 }
 ::-webkit-scrollbar-thumb:hover {
     background:rgba(0, 164, 173,0.8);
@@ -335,7 +335,7 @@ body {
     }
     #middle {
         width:90vw;
-        padding:0px 5vw;
+        padding:5vh 5vw;
     }
     #middle table {
         width:80%;
